@@ -3,15 +3,19 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Gallery() {
   return (
-    <div class="text-center">
-      <div class="text-[36px] items-center font-bold px-20 py-10">Galeri Kegiatan</div>
-      <div class="p-5 sm:p-8">
-        <div class="columns-1 gap-10 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+    <section className="px-4 py-10 text-center sm:px-6 md:px-8 md:py-14">
+      <h2 className="mb-8 text-4xl font-bold md:mb-10 md:text-5xl">Galeri Kegiatan</h2>
+      <div>
+        <div className="columns-1 gap-5 sm:columns-2 sm:gap-6 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-6">
           {galleryLinks.map((m, i) => (
-            <LazyLoadImage className="transition duration-300 ease-in-out hover:scale-110" key={i} {...m}/>
+            <LazyLoadImage
+              className="mb-5 w-full rounded-lg transition duration-300 ease-in-out hover:scale-[1.02] sm:mb-6"
+              key={i}
+              {...m}
+            />
           ))}
         </div>
       </div>
-    </div>
-);
+    </section>
+  );
 }

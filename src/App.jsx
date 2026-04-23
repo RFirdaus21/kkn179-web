@@ -7,14 +7,14 @@ import Gallery from './pages/gallery'
 function App() {
   return (
     <BrowserRouter>
-    <Navbar />
-    <div className="pt-32">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/members" element={<Members />} />
-        <Route path="/gallery" element={<Gallery />} />
-      </Routes>
-    </div>
+      <Navbar />
+      <main className="pt-24 md:pt-28">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/members" element={<Members />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+      </main>
     </BrowserRouter>
   )
 }

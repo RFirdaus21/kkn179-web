@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
-* {
-  margin: 10;
-  padding: 10;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   font-family: system-ui, -apple-system, sans-serif;
 }
 
