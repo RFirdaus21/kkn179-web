@@ -1,0 +1,144 @@
+const galleryLinks = [{
+    name: 'IMG_1',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905233/IMG_1_byckix.jpg'
+}, {
+    name: 'IMG_2',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905235/IMG_5_mhdx8s.jpg'
+}, {
+    name: 'IMG_3',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905232/IMG_3_prtguh.jpg'
+}, {
+    name: 'IMG_4',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905233/IMG_6_amxwr0.jpg'
+}, {
+    name: 'IMG_5',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905234/IMG_4_t3ojag.jpg'
+}, {
+    name: 'IMG_6',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905234/IMG_24_lacvlc.jpg'
+}, {
+    name: 'IMG_7',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905236/IMG_10_zpkq5i.jpg'
+}, {
+    name: 'IMG_8',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905237/IMG_25_ejgexr.jpg'
+}, {
+    name: 'IMG_9',
+    src: 'ttps://res.cloudinary.com/dderecobj/image/upload/v1776905238/IMG_9_kyhd7o.jpg'
+}, {
+    name: 'IMG_10',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905238/IMG_26_zc4wdk.jpg'
+}, {
+    name: 'IMG_11',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905240/IMG_27_tzfuyd.jpg'
+}, {
+    name: 'IMG_12',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905242/IMG_28_tr3m42.jpg'
+}, {
+    name: 'IMG_13',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905243/IMG_12_i3axrs.jpg'
+}, {
+    name: 'IMG_14',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905243/IMG_11_qxmebb.jpg'
+}, {
+    name: 'IMG_15',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905243/IMG_7_vks3ir.jpg'
+}, {
+    name: 'IMG_16',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905243/IMG_13_qrp2xq.jpg'
+}, {
+    name: 'IMG_17',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905244/IMG_14_xvtne6.jpg'
+}, {
+    name: 'IMG_18',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905247/IMG_18_iwwctv.jpg'
+}, {
+    name: 'IMG_19',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905247/IMG_15_wb3ghr.jpg'
+}, {
+    name: 'IMG_20',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905248/IMG_17_plufou.jpg' 
+}, {
+    name: 'IMG_21',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905248/IMG_19_t7zpvx.jpg'
+}, {
+    name: 'IMG_22',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905249/IMG_20_fhcvj1.jpg'
+}, {
+    name: 'IMG_23',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905250/IMG_29_uyoabg.jpg'
+}, {
+    name: 'IMG_24',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905250/IMG_22_izsvjf.jpg'
+}, {
+    name: 'IMG_25',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905250/IMG_16_jqhhtv.jpg'
+}, {
+    name: 'IMG_26',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905251/IMG_30_pr8klu.jpg'
+}, {
+    name: 'IMG_27',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905251/IMG_21_jsqcbq.jpg'
+}, {
+    name: 'IMG_28',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905251/IMG_23_ua8uuf.jpg'
+}, {
+    name: 'IMG_29',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911673/pic_17_vzsjix.jpg'
+}, {
+    name: 'IMG_30',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905251/IMG_31_a3cfbj.jpg'
+}, {
+    name: 'IMG_31',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905255/IMG_2_ryzvkd.jpg'
+}, {
+    name: 'IMG_32',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776905355/IMG_8_tmvu9o.jpg'
+}, {
+    name: 'IMG_33',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911676/pic_1_odtz2g.jpg'
+}, {
+    name: 'IMG_34',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911681/pic_6_arwzhe.jpg'
+}, {
+    name: 'IMG_35',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911684/pic_12_lmoy6u.jpg'
+}, {
+    name: 'IMG_36',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911681/pic_3_mzhrej.jpg'
+}, {
+    name: 'IMG_37',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911683/pic_4_ktx0jp.jpg'
+}, {   
+    name: 'IMG_38',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911696/pic_10_mhizpf.jpg'
+}, {
+    name: 'IMG_39',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911691/pic_2_fq2ljx.jpg'
+}, {
+    name: 'IMG_40',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911691/pic_15_zaxp8d.jpg'
+}, {
+    name: 'IMG_41',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911697/pic_14_oy1tss.jpg'
+}, {
+    name: 'IMG_42',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911698/pic_11_bqpank.jpg'
+}, {
+    name: 'IMG_43',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911699/pic_13_ryk1kn.jpg'
+}, {
+    name: 'IMG_44',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911700/pic_8_end8gj.jpg'
+}, {
+    name: 'IMG_45',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911703/pic_5_dbiexx.jpg'
+}, {
+    name: 'IMG_46',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911701/pic_7_kwuav2.jpg'
+}, {
+    name: 'IMG_47',
+    src: 'https://res.cloudinary.com/dderecobj/image/upload/v1776911702/pic_9_rwzfcc.jpg'
+}]
+
+export default galleryLinks;
