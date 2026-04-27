@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <main className="pt-24 md:pt-28">
+      <main className="pt-16 md:pt-28">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/members" element={<Members />} />
